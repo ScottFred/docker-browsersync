@@ -1,5 +1,4 @@
-FROM node:6
-MAINTAINER Adrian Perez <adrian@adrianperez.org>
+FROM node:9
 
 RUN npm -g install browser-sync
 WORKDIR /source
